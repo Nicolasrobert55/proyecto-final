@@ -1,0 +1,38 @@
+body {
+  background-color: #717075;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #0e0404; }
+
+.menu {
+  list-style: none;
+  padding: 0%;
+  background: #22af35;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto; }
+  .menu li {
+    display: inline-block;
+    text-align: center;
+    text-decoration-line: none; }
+    .menu li a {
+      text-decoration: none;
+      color: white;
+      padding: 20px;
+      display: block; }
+
+.pie {
+  list-style: none;
+  padding: 0%;
+  background: #48388f;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto; }
+  .pie li {
+    display: inline-block;
+    text-align: center;
+    text-decoration-line: none; }
+    .pie li a {
+      text-decoration: none;
+      color: white;
+      padding: 20px;
+      display: block; }

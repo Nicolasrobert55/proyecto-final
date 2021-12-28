@@ -9,5 +9,17 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicolasrobert55/trabajo-del-lunes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nicolasrobert55/trabajo-del-lunes/issues"
+  },
+  "homepage": "https://github.com/Nicolasrobert55/trabajo-del-lunes#readme",
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
 }
