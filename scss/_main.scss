@@ -1,0 +1,45 @@
+@mixin titulos {
+    background-color: $color-titulos;
+    color:white;
+    font-size:$tipografias-alternativa;
+    text-align: center;
+    font: size 3rem;
+ 
+}
+h1,h3{
+    @include titulos;
+    }
+
+
+
+p{
+    font-family:$tipografias-general;
+    font-size:$fuente-grande;
+    padding: 1rem;
+    text-align: center;
+
+}
+h4{
+    color:white;
+}
+.imagen{
+    display:flex;
+    justify-content: center;   
+    align-items: center;
+}
+.contenedor{
+    width: 100%;
+    margin:auto;
+}
+.fotitos{
+    width:100%;
+}
+
+.grid{
+    margin:5px;
+   
+}
+.fotos .contenedor{
+    display: grid;
+    
+}

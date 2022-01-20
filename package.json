@@ -17,9 +17,10 @@
     "url": "https://github.com/Nicolasrobert55/trabajo-del-lunes/issues"
   },
   "homepage": "https://github.com/Nicolasrobert55/trabajo-del-lunes#readme",
-  "description": "",
   "devDependencies": {
     "node-sass": "^7.0.0",
     "nodemon": "^2.0.15"
-  }
+  },
+  "dependencies": {},
+  "description": ""
 }

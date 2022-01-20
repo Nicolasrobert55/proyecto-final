@@ -1,38 +1,82 @@
 body {
-  background-color: #717075;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #0e0404; }
+  color: #181313;
+  font-family: arial, verdana, sans-serif;
+  background: #737375; }
 
-.menu {
+header {
+  font-family: Times New Roman, times, serif;
+  color: #5a5a7c;
+  font-size: 1.4em; }
+
+h1, h3 {
+  background-color: #5a5a7c;
+  color: white;
+  font-size: Times New Roman, times, serif;
+  text-align: center;
+  font: size 3rem; }
+
+p {
+  font-family: arial, verdana, sans-serif;
+  font-size: 1.4em;
+  padding: 1rem;
+  text-align: center; }
+
+h4 {
+  color: white; }
+
+.imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.contenedor {
+  width: 100%;
+  margin: auto; }
+
+.fotitos {
+  width: 100%; }
+
+.grid {
+  margin: 5px; }
+
+.fotos .contenedor {
+  display: grid; }
+
+footer {
+  border: 2px,solid red;
+  background-color: #5a5a7c; }
+
+footer ul {
   list-style: none;
   padding: 0%;
-  background: #22af35;
-  width: 100%;
-  max-width: 1000px;
-  margin: auto; }
-  .menu li {
-    display: inline-block;
-    text-align: center;
-    text-decoration-line: none; }
-    .menu li a {
-      text-decoration: none;
-      color: white;
-      padding: 20px;
-      display: block; }
+  margin: 0%;
+  border: 2px,solid red; }
 
-.pie {
-  list-style: none;
-  padding: 0%;
-  background: #48388f;
-  width: 100%;
-  max-width: 1000px;
-  margin: auto; }
-  .pie li {
-    display: inline-block;
-    text-align: center;
-    text-decoration-line: none; }
-    .pie li a {
-      text-decoration: none;
-      color: white;
-      padding: 20px;
-      display: block; }
+footer ul li {
+  display: inline-block;
+  border: 2px,solid red; }
+
+footer ul li a {
+  color: white;
+  display: block;
+  padding: 20px 60px;
+  text-decoration: none; }
+
+footer ul li a:hover {
+  background-color: #5a5a7c; }
+
+@media (min-width: 320px) {
+  .fotos .contenedor {
+    grid-template-columns: repeat(1, 100%); } }
+
+@media (min-width: 520px) {
+  .fotos .contenedor {
+    grid-template-columns: repeat(2, 50%); } }
+
+@media (min-width: 728px) {
+  .fotos .contenedor {
+    grid-template-columns: repeat(3, 33.3%); } }
+
+@media (min-width: 1024px) {
+  .fotos .contenedor {
+    grid-template-columns: repeat(4, 25%); } }

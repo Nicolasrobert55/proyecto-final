@@ -1,0 +1,33 @@
+footer{
+    border:2px,solid red;
+    background-color:$color-titulos;
+}
+    
+footer ul{    
+            list-style:none ;    
+            padding: 0%;
+            margin: 0%;
+            border:2px,solid red;            
+}
+
+footer ul li{
+                    display: inline-block;
+                    border:2px,solid red;
+}
+
+footer ul li  a{      
+              color:white;
+              display: block;
+              padding: 20px 60px;       
+              text-decoration: none;
+            
+}
+
+footer ul li a:hover{
+                     background-color:$color-titulos;
+                      
+}
+                                
+
+        
+
