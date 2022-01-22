@@ -8,7 +8,8 @@
 }
 h1,h3{
     @include titulos;
-    }
+}
+
 
 
 
@@ -29,11 +30,18 @@ h4{
     display: block;
     border-style:solid;
 }
-img{
+.imagen{
     transition: all 05s linear;
 }
-img:hover{
+.imagen:hover{
     transform: scale(0.9);
+}
+.slide{
+    margin-top: 10px;
+
+}
+.slide img{
+    height: 65vh;
 }
 
 .imagen{
@@ -45,6 +53,7 @@ img:hover{
     width: 100%;
     margin:auto;
 }
+
 .fotitos{
     width:100%;
 }
