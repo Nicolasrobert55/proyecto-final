@@ -1,18 +1,19 @@
 footer{
-    border:2px,solid red;
+    
     background-color:$color-titulos;
 }
     
 footer ul{    
             list-style:none ;    
             padding: 0%;
-            margin: 0%;
-            border:2px,solid red;            
+            margin: 0%;             
+            text-align: center;           
+            
 }
 
 footer ul li{
-                    display: inline-block;
-                    border:2px,solid red;
+            display: inline-block;
+                    
 }
 
 footer ul li  a{      
@@ -20,12 +21,19 @@ footer ul li  a{
               display: block;
               padding: 20px 60px;       
               text-decoration: none;
-            
+              font-size:$fuente-normal;
+              font-family:$tipografias-alternativa;
 }
 
 footer ul li a:hover{
                      background-color:$color-titulos;
                       
+}
+.derechos{
+    color:white;
+    font-family:$tipografias-alternativa;
+    font-size:$fuente-normal;
+    text-align:center;
 }
                                 
 

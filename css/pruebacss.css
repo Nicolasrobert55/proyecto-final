@@ -24,6 +24,19 @@ p {
 h4 {
   color: white; }
 
+.primerimagen {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-style: solid; }
+
+img {
+  transition: all 05s linear; }
+
+img:hover {
+  transform: scale(0.9); }
+
 .imagen {
   display: flex;
   justify-content: center;
@@ -43,29 +56,38 @@ h4 {
   display: grid; }
 
 footer {
-  border: 2px,solid red;
   background-color: #5a5a7c; }
 
 footer ul {
   list-style: none;
   padding: 0%;
   margin: 0%;
-  border: 2px,solid red; }
+  text-align: center; }
 
 footer ul li {
-  display: inline-block;
-  border: 2px,solid red; }
+  display: inline-block; }
 
 footer ul li a {
   color: white;
   display: block;
   padding: 20px 60px;
-  text-decoration: none; }
+  text-decoration: none;
+  font-size: 1em;
+  font-family: Times New Roman, times, serif; }
 
 footer ul li a:hover {
   background-color: #5a5a7c; }
 
+.derechos {
+  color: white;
+  font-family: Times New Roman, times, serif;
+  font-size: 1em;
+  text-align: center; }
+
 @media (min-width: 320px) {
+  .inframe {
+    width: 300px;
+    height: 200px; }
   .fotos .contenedor {
     grid-template-columns: repeat(1, 100%); } }
 
