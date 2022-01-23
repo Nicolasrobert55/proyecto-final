@@ -62,49 +62,80 @@ h4 {
   display: grid; }
 
 footer {
-  background-color: #5a5a7c; }
+  background: #5a5959;
+  height: auto;
+  width: 100vw;
+  font-family: "open sans";
+  padding-top: 40px;
+  color: #fff; }
 
-footer ul {
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; }
+
+/*.footer-content h5{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}*/
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px; }
+
+.sociales {
   list-style: none;
-  padding: 0%;
-  margin: 0%;
-  text-align: center; }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0; }
 
-footer ul li {
-  display: inline-block; }
+.sociales li {
+  margin: 0 10px; }
 
-footer ul li a {
-  color: white;
-  display: block;
-  padding: 20px 60px;
+.sociales a {
   text-decoration: none;
-  font-size: 1em;
-  font-family: Times New Roman, times, serif; }
+  color: #fff; }
 
-footer ul li a:hover {
-  background-color: #5a5a7c; }
+.sociales a i {
+  font-size: 1.1rem;
+  transition: color .4s ease; }
 
-.derechos {
-  color: white;
-  font-family: Times New Roman, times, serif;
-  font-size: 1em;
+.sociales a:hover i {
+  color: aqua; }
+
+.copyrith {
+  background: #353333;
+  width: 100w;
+  padding: 20px 0;
   text-align: center; }
 
-@media (min-width: 320px) {
+.copyrith p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize; }
+
+@media screen and (min-width: 320px) {
   .inframe {
     width: 300px;
     height: 200px; }
   .fotos .contenedor {
     grid-template-columns: repeat(1, 100%); } }
 
-@media (min-width: 520px) {
+@media screen and (min-width: 520px) {
   .fotos .contenedor {
     grid-template-columns: repeat(2, 50%); } }
 
-@media (min-width: 728px) {
+@media screen and (min-width: 728px) {
   .fotos .contenedor {
     grid-template-columns: repeat(3, 33.3%); } }
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .fotos .contenedor {
     grid-template-columns: repeat(4, 25%); } }
